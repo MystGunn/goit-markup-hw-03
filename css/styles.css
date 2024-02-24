@@ -1,0 +1,154 @@
+:root {
+  --link-color: #000000;
+  --link-color-hover: #404bbf;
+  --heading-font-family: "Roboto", sans-serif;
+  --text-font-family: "Raleway", sans-serif;
+}
+
+.navigation {
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+
+* {
+  font-family: var(--text-font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color-hover);
+  cursor: pointer;
+}
+
+.all-solutions {
+  color: #ffff;
+  text-align: center;
+  background-color: #2e2f42;
+  padding: 94px 0;
+}
+
+.bottom-row {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  padding: 94px 0;
+}
+
+.team-class {
+  background-color: #f4f4fd;
+  height: 260;
+  width: 264;
+}
+
+.job-images {
+  height: 300;
+  width: 360;
+}
+
+.portofolio-images {
+  height: 300;
+  width: 360;
+}
+
+.contact-info {
+  color: #434455;
+}
+
+.logo::before {
+  content: "web";
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.logo-bottom {
+  color: #f4f4fd;
+}
+
+.logo-bottom::before {
+  content: "web";
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.order-button {
+  background-color: #4d5ae5;
+  text-transform: capitalize;
+  color: #ffff;
+  height: 56;
+  border-radius: 3px;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+}
+
+.list-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  padding: 94px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.web-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-list {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0px;
+  font-size: 24px;
+  padding: 24px 28px;
+}
+
+.button-list:hover {
+  color: #f4f4fd;
+  background-color: var(--link-color-hover);
+}
+
+.card-borders {
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7e9fc;
+}
+
+.team-container {
+  display: block;
+  border-style: outset;
+  border-radius: 2%;
+  background-color: #ffff;
+  align-content: center;
+}
